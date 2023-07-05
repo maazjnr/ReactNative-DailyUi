@@ -14,7 +14,7 @@ import Animated, { FadeInRight, FadeInLeft } from "react-native-reanimated";
 
 const HomeScreen = ({ navigation }) => {
   return (
-    <View style={{padding: 12, flex: 1, backgroundColor: "#fff"}}>
+    <View style={{backgroundColor: "#fff", padding: 12, flex: 1}}>
       <View
         style={{
           flexDirection: "row",
