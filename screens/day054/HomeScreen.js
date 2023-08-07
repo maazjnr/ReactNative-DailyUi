@@ -172,7 +172,7 @@ const HomeScreen = ({ navigation }) => {
           </View>
           <View
             style={{
-              flexDirection: "row",
+              flexDirection: 'row',
               alignItems: "center",
               marginTop: 10,
             }}
