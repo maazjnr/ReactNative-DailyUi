@@ -4,7 +4,6 @@ import { AntDesign, MaterialCommunityIcons } from '@expo/vector-icons';
 import Animated, { FadeInDown } from 'react-native-reanimated';
 import LottieView from 'lottie-react-native';
 
-
 const HomeScreen = ({ navigation }) => {
 
     const animation = React.useRef(null);
