@@ -16,8 +16,8 @@ const HomeScreen = ({ navigation }) => {
   const { width, height } = Dimensions.get("window");
 
   return (
-    <View style={{ flex: 1, backgroundColor: "#FFF", padding: 12 }}>
-      <Text
+    <View style={{backgroundColor: "#fff", padding: 12, flex: 1}}>
+         <Text
         style={{ fontFamily: "Poppins-Bold", fontSize: 25, color: "#131313" }}
       >{`Background`}</Text>
 
@@ -341,6 +341,7 @@ const HomeScreen = ({ navigation }) => {
           </Animated.View>
         </>
       </ScrollView>
+    
     </View>
   );
 };
