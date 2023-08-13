@@ -81,7 +81,7 @@ const HomeScreen = ({ navigation }) => {
                   style={{
                     width: 150,
                     height: 300,
-                    resizeMode: "cover",
+                    resizeMode: 'cover',
                     borderRadius: 10,
                   }}
                 />
