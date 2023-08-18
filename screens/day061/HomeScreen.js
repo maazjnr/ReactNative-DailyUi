@@ -33,7 +33,7 @@ const HomeScreen = ({ navigation }) => {
 
                         elevation: 11,
                     }}
-                    onPress={()=> navigation.navigate('Coupon')}>
+                        onPress={() => navigation.navigate('Coupon')}>
                         <View style={{ backgroundColor: '#0f68d7', width: 180, height: 150, justifyContent: 'center', alignItems: 'center', alignSelf: 'center', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}>
                             <Image source={require('./adidas.png')} style={{ width: 80, height: 80, resizeMode: 'contain' }} />
                         </View>
